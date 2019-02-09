@@ -1,0 +1,28 @@
+	<link rel="stylesheet" type="text/css" href="/View/style.css">
+
+<div id="now-playing-bar">
+			<div id="now-playing">
+			
+				<div id="song-pict-bar">
+				
+				</div>
+				<div id="song-name">
+					<div id="song-title">...</div>
+					<div id="song-artist">...</div>
+				</div>
+				<button class="like love-btn fa fa-heart fa-2x"></button>
+				<button class="ctrl left-btn fa fa-caret-left fa-5x"></button>	
+				<button class="ctrl play-btn fa fa-play-circle fa-5x"></button>
+				<button class="ctrl right-btn fa fa-caret-right fa-5x"></button>	
+				
+			</div>
+			<div id="song-control">
+				<p id="current-duration">00:00</p>
+				<div id="bar-progress">
+					<div id="bar-fill">
+					</div>
+				</div>
+				<p id="duration">00:00</p>
+				<button class="ctrl volume-btn fa fa-volume-up fa-2x not-muted" style="width=200px;"></button>
+			</div>
+		</div>
